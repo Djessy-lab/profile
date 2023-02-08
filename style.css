@@ -1,0 +1,139 @@
+body {
+  background-color: #1c1c1e;
+}
+
+#img-circle{
+  border-radius: 50%;
+}
+
+#img-circle:hover{
+  filter: blur(4px);
+  transition: all ease 0.5s;
+}
+
+h1 {
+  color: #ECB365;
+  font-size: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+  color: #FCDDB0;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  color: #D8D8D8;
+}
+
+p {
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+li{
+  list-style: none;
+  font-size: 30px;
+  margin: 10px;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.fa-brands{
+  color: #D8D8D8;
+}
+
+.fa-brands:hover {
+  color: #94584a;
+  transition: 0.4s;
+}
+
+
+#button {
+  background-color: #4a4e69;
+  padding: 10px;
+  border-radius: 10px;
+  color:  whitesmoke;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button:hover{
+  background-color: #c9ada7;
+  transition: 0.3s;
+}
+
+@media (max-width: 3589px) {
+  .container{
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 40px auto;
+  }
+  }
+
+@media (max-width: 1500px) {
+  .container{
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 40px auto;
+  }
+  }
+
+@media (max-width: 960px) {
+  .container{
+    overflow: hidden;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    margin: 40px auto;
+  }
+  }
+
+@media (max-width: 282px) {
+.container{
+  overflow: hidden;
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin: 40px auto;
+}
+}
+
+
+.card-profile{
+  background: #2d2e38;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.2);
+}
+
+.card-follow{
+  margin-top: 30px;
+  background:  #2d2e38;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.2);
+}
